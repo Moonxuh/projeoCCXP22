@@ -1,295 +1,191 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 #head {
-    /* Retângulo Amarelo */
-
-    width: 100%;
-    height: 118px;
-    background: #FFD900;
-
-    display: flex;
-    align-items: center;
-    padding-left: 58px;
-}
-
-#imghead {
-    /* Imagem logo CCXP22 */
-
-    width: 202px;
-    height: 63px;
-
-    background: url(IMG/CCXP22.svg);
+  width: 100%;
+  background: #ffd900;
+  padding: 2rem 0.5rem;
+  padding-left: 3rem;
 }
 
 .central {
-    display: flex;
-    width: 100%;
-    height: 694px;
+  display: grid;
+  grid-template-columns: 750px 1fr;
+  justify-content: space-between;
 }
 
 .geral {
-    /* Quadrado Roxo*/
-    width: 60%;
-    background: #514988;
-
-    padding: 32px;
+  width: 100%;
+  background: #514988;
+  padding: 32px;
+  border: 2px solid #ffd900;
 }
 
 .title {
-    margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 #h1 {
-    /* REVIVA O ÉPICO*/
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 85px;
-    text-align: center;
-    color: #F3C61F;
+  /* REVIVA O ÉPICO*/
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  text-align: center;
+  color: #f3c61f;
 
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 #h5 {
-    /*DE 01 A 04 DE DEZEMBRO */
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36.46px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+  /*DE 01 A 04 DE DEZEMBRO */
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 
-    color: #FFFFFF
+  color: #ffffff;
 }
 
 #textcenter {
-    /* Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022,
-    teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus
-    universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos
-    nossos corredores. */
-
-    display: flex;
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 35px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-
-    margin: 0 auto;
-
-    color: #FFFFFF;
-}
-
-#timervideo {
-    /* Fundo Preto?? Bom, era para ser KKKK */
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
 }
 
 #dia {
-    width: 239px;
-    height: 175px;
-    left: 900px;
-    top: 60px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 85px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #514988;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  color: #514988;
 }
 
 #hora {
-    width: 270px;
-    height: 175px;
-    left: 1100px;
-    top: 60px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 85px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #514988;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  color: #514988;
 }
 
 #minuto {
-    width: 273px;
-    height: 175px;
-    left: 1300px;
-    top: 60px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 85px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #514988;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  color: #514988;
 }
 
 #segundo {
-
-    width: 239px;
-    height: 175px;
-    left: 1500px;
-    top: 60px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 85px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #514988;
-
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  color: #514988;
 }
 
 #phrasevideo {
-    /* PARA A MAIOR CCXP DE TODOS OS TEMPOS */
-    width: 900px;
-    height: 50px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-
-    text-align: center;
-
-    margin-top: 6px;
-
-    color: #E33881;
+  /* PARA A MAIOR CCXP DE TODOS OS TEMPOS */
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 6px;
+  color: #e33881;
 }
 
 .countdown {
-    display: grid;
-    grid-auto-flow: column;
-    font-size: 25px;
-    margin-right: 150px;
-    margin-bottom: -50px;
-    text-align: center;
-    margin-left: 15px;
-    width: 500px;
-    margin-top: 10px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 #video {
-    padding: 0.5vw;
-
-    display: flex;
-
-    width: 1000px;
-    height: 510px;
-    left: 830px;
-    top: 284px;
-
-    background: url(Arlequina.mp4);
-    background-size: 600px 300px;
+  padding: 1rem;
+  width: 100%;
 }
 
 #run {
-
-    width: 800px;
-    height: 33px;
-    left: 89px;
-    top: 827px;
-
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 33px;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #F3C61F;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  color: #f3c61f;
 }
 
 .propaganda {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
+  align-items: center;
 
-    padding: 24px 32px;
-    height: 100%;
+  padding: 24px 32px;
+  height: 100%;
 }
 
 .propaganda-esquerda {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .ingressos {
-    display: flex;
-}
-
-.ingressosIMG {
-    width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #atgsc {
-    color: #F3C61F;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: left;
-    margin-left: 20px;
-}
-
-.botaoContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
+  color: #f3c61f;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  margin-left: 20px;
 }
 
 #botao {
-    width: 596px;
-    height: 148px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
 
-    font-family: 'Verdana';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-
-    background: #514988;
-    border-radius: 20px;
-    color: white;
-    border: none;
+  background: #514988;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 34px 90px;
+  margin-top: 2rem;
 }
 
 #botao:hover {
-    background: #514988;
-    cursor: pointer;
-    color: #F3C61F;
+  background: #514988;
+  cursor: pointer;
+  color: #f3c61f;
 }
